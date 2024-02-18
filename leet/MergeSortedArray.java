@@ -14,11 +14,7 @@ public class MergeSortedArray {
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         // Replace elements in nums1 starting from index m with n elements from nums2
         System.arraycopy(nums2, 0, nums1, m, n);
-        Integer[] nums1Integer = Arrays.stream(nums1).boxed().toArray(Integer[]::new);
-        Arrays.sort(nums1Integer, Comparator.reverseOrder()); // Sort in descending order
-        for (int i = 0; i < nums1Integer.length; i++) {
-            nums1[i] = nums1Integer[i];
-        }
+        Arrays.sort(nums1);
 
         System.out.println(Arrays.toString(nums1));
     }
