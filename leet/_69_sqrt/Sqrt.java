@@ -1,4 +1,6 @@
-package leet;
+// https://leetcode.com/problems/sqrtx/description/
+
+package leet._69_sqrt;
 
 public class Sqrt {
 

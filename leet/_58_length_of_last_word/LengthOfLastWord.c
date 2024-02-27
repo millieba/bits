@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/length-of-last-word/description/
+
 #include <stdio.h>
 #include <string.h>
 

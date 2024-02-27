@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/merge-sorted-array/description/
 
-package leet;
+package leet._88_merge_sorted_array;
 
 import java.util.Arrays;
 import java.util.Comparator;

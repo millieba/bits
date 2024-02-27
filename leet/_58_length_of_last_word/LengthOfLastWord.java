@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/length-of-last-word/description/
 
-package leet;
+package leet._58_length_of_last_word;
 
 class LengthOfLastWord {
 

@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
 
-package leet;
+package leet._122_max_profit;
 
 public class MaxProfit {
     public static int maxProfit(int[] prices) {

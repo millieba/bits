@@ -1,4 +1,6 @@
-package leet;
+// https://leetcode.com/problems/plus-one/description/
+
+package leet._66_plus_one;
 
 import java.util.Arrays;
 
